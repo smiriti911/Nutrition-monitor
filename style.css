@@ -1,0 +1,126 @@
+/* General App Styles */
+.stApp {
+    background-color: #cef6ab;  /* Light gray background */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    color: #013f10;
+}
+h1, h2, h3{
+    color: #022405;
+}
+p{
+    color: #cef6ab;
+}
+
+/* Header Styles */
+.stHeader {
+    color: #022405;  /* Dark color for headers */
+    font-size: 26px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 20px; /* Spacing below header */
+}
+/* Button Styles */
+/* Button Styles */
+.stButton>button {
+    background-color: #013f10;  /* Green button */
+    color: rgb(187, 235, 175);               /* White text */
+    font-size: 16px;            /* Button font size */
+    border-radius: 5px;         /* Rounded corners */
+    padding: 10px 20px;         /* Padding for buttons */
+    border: none;               /* No border */
+    transition: background-color 0.3s, transform 0.3s; /* Transition for background color and size */
+}
+
+/* Button Hover Effect */
+.stButton>button:hover {
+    background-color: #47823eaf;
+    color: #013f10; /* Lighter green on hover */
+    transform: scale(1.05);    /* Slightly grow the button on hover */
+}
+/* Image Styles */
+.uploaded-image {
+    border: 2px solid #6c757d; /* Border around the image */
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+/* Sidebar Styles */
+.sidebar .sidebar-content {
+    background-color: #f7f7f7; /* Light background for sidebar */
+    padding: 20px; /* Padding around sidebar content */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Sidebar Title Styles */
+.sidebar .sidebar-title {
+    font-size: 22px; /* Larger font for the title */
+    font-weight: bold; /* Bold text */
+    color: #343a40; /* Dark gray color */
+    margin-bottom: 15px; /* Spacing below the title */
+}
+.st-emotion-cache-1wqrzgl {
+    position: relative;
+    top: 0.125rem;
+    background-color:  #47823eaf;
+    z-index: 999991;
+    min-width: 244px;
+    max-width: 550px;
+    transform: none;
+    transition: transform 300ms, min-width 300ms, max-width 300ms;
+}
+
+.st-emotion-cache-h4xjwg {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 3.75rem;
+        background: #cef6ab;
+        outline: none;
+        z-index: 999990;
+        display: block;
+}
+.st-emotion-cache-xwtqgq {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #013f10;
+    border-radius: 0.5rem;
+    color: rgb(206 246 171);
+}
+.st-emotion-cache-lpgk4i { 
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    min-height: 2.5rem;
+    margin: 0px;
+    line-height: 1.6;
+    color: inherit;
+    width: auto;
+    user-select: none;
+    background-color: #cef6ab; /* Original background color */
+    color: #022405; /* Original text color */
+    border: 1px solid rgba(250, 250, 250, 0.2); /* Original border */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background and size */
+}
+
+/* Hover Effect */
+.st-emotion-cache-lpgk4i:hover {
+    background-color: #b2e69e; /* Lighter background color on hover */
+    /* Remove border styling on hover */
+    border: 1px solid rgba(250, 250, 250, 0.2); /* Keep the original border color */
+    color: #022405;
+    transform: scale(1.05); /* Slightly grow in size */
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center; /* Centered text */
+    margin-top: 30px; /* Space above footer */
+    color: #023f08; /* Lighter gray color */
+}
